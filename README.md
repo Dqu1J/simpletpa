@@ -16,11 +16,11 @@ SimpleTPA is a plugin that allows players to teleport to each other safe and eas
 4. Done
 
 ## Permissions
-simpletpa.tpa - /tpa
-simpletpa.tpaccept - /tpaccept
-simpletpa.tpdeny - /tpdeny
-simpletpa.tpatoggle - /tpatoggle
-simpletpa.tpahere - /tpahere
-simpletpa.tpaignore - /tpaignore
+- simpletpa.tpa - /tpa
+- simpletpa.tpaccept - /tpaccept
+- simpletpa.tpdeny - /tpdeny
+- simpletpa.tpatoggle - /tpatoggle
+- simpletpa.tpahere - /tpahere
+- simpletpa.tpaignore - /tpaignore
 
 # [Spigot page](https://www.spigotmc.org/resources/simpletpa.74834)
