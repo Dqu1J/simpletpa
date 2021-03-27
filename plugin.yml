@@ -1,0 +1,36 @@
+name: SimpleTpa
+version: 2.4
+main: dqu.simpletpa.Main
+description: This plugin adds TPA command to your server.
+author: Dqu1J
+commands:
+  tpa:
+    description: Send a teleport request to a player.
+    permission: simpletpa.tpa
+    default: true
+    usage: /tpa <Player>
+  tpaccept:
+    description: Accept a teleport request from another player.
+    permission: simpletpa.tpaccept
+    default: true
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request from another player.
+    permission: simpletpa.tpdeny
+    default: true
+    usage: /tpdeny
+  tpatoggle:
+    description: Toggle ability for other players to send teleport requests to you.
+    permission: simpletpa.tpatoggle
+    default: true
+    usage: /tpatoggle
+  tpahere:
+    description: Send a request to another player to teleport to you.
+    permission: simpletpa.tpahere
+    default: true
+    usage: /tpahere <Player>
+  tpaignore:
+    description: Ban a player from sending you teleport requests
+    permission: simpletpa.tpaignore
+    default: true
+    usage: /tpaignore <Player>

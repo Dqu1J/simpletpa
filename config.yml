@@ -1,0 +1,32 @@
+properties:
+  accepttime: 20
+  tpdelay: true
+  tpdelaytime: 3
+  cancelonmove: false
+  autoupdate: false
+
+messages:
+  noargs: "&cUsage: /tpa <Player>"
+  targetoffline: "&cPlayer %1 is offline."
+  targetpending: "&cPlayer %1 has pending requests. Try again later."
+  targettoggle: "&cPlayer %1 has teleport requests disabled."
+  sent: "&aSuccesfuly sent a teleport request to %1."
+  received0: "&6%1 has requested to teleport to you. Type /tpaccept to accept it."
+  received1: "&6%1 has requested to teleport you to them. Type /tpaccept to accept it."
+  norequests: "&cYou do not have any teleport requests."
+  senderoffline: "&cPlayer that sent you teleport request is offline."
+  teleporting0: "&6Teleporting you to %1."
+  teleporting1: "&6Teleporting %1 to you."
+  declined0: "&6Player %1 declined your teleport request."
+  declined1: "&6Declined teleport request from %1."
+  ignore0: "&6Added player %1 to your ignore list."
+  ignore1: "&6Removed player %1 from your ignore list."
+  timeout0: "&6Teleport request from %1 is timed out."
+  timeout1: "&6Your teleport request to %1 is timed out."
+  toggle0: "&6Players now can send teleport requests to you."
+  toggle1: "&6Players now can not send teleport requests to you."
+  tpdelay: "&6Teleporting in %1 seconds..."
+  canceled: "&6Teleportation request canceled."
+
+toggledlist: ''
+ignoredlist: ''
